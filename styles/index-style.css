@@ -7,13 +7,13 @@ body {
     font-family: 'public_sansregular', Helvetica, Arial, sans-serif;
 }
 h1 h2 {
-    font-family: 'Playfair Display', 'Droid Serif', serif;
+    font-family: 'public_sansregular', 'Droid Serif', serif;
 }
 h3 {
     font-family: 'Amatic SC', Helvetica, Arial, sans-serif;
 }
 h4 h5 {
-    font-family: 'public_sanssemibold', Helvetica, Arial, sans-serif;
+    font-family: 'Amatic SC', Helvetica, Arial, sans-serif;
 }
 
 #iu45 {
@@ -613,3 +613,4 @@ h4 h5 {
         font-size: 3em;
     }
 }
+           
