@@ -1,34 +1,21 @@
-@font-face {
-    font-family: 'PublicSans';
-    src: url(https://www.adstellam.xyz/assets/typography/PublicSans-Regular.otf);
-}
-
-@font-face {
-    font-family: 'PlayfairDisplay';
-    src: url(https://www.adstellam.xyz/assets/typography/PlayfairDisplay-Regular.otf);
-}
-
-@font-face {
-    font-family: 'AmaticSC';
-    src: url(https://www.adstellam.xyz/assets/typography/AmaticSC-Regular.ttf);
-}
-
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Playfair+Display&display=swap');
+@import url('https://www.adstellam.xyz/assets/typography/publicsans/stylesheet.css')
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    font-family: 'PublicSans', Helvetica, Arial, sans-serif;
+    font-family: 'public_sansregular', Helvetica, Arial, sans-serif;
 }
 h1 h2 {
     font-family: 'PlayfairDisplay', 'Droid Serif', serif;
 }
 h3 {
-    font-family: 'AmaticSC', 'Helvetica, Arial, sans-serif;
+    font-family: 'AmaticSC', Helvetica, Arial, sans-serif;
 }
 h4 h5 {
-    font-family: 'PublicSans', 'Helvetica, Arial, sans-serif;
+    font-family: 'PublicSans', Helvetica, Arial, sans-serif;
 }
 
 #iu45 {
