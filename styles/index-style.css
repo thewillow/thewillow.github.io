@@ -1,15 +1,15 @@
-@font-face {
-    font-family: 'Public Sans';
+PlayfairDisplay@font-face {
+    font-family: 'PublicSans';
     src: url(https://www.adstellam.xyz/assets/typography/PublicSans-Regular.otf);
 }
 
 @font-face {
-    font-family: 'Playfair Display';
+    font-family: 'PlayfairDisplay';
     src: url(https://www.adstellam.xyz/assets/typography/PlayfairDisplay-Regular.otf);
 }
 
 @font-face {
-    font-family: 'Amatic SC';
+    font-family: 'AmaticSC';
     src: url(https://www.adstellam.xyz/assets/typography/AmaticSC-Regular.ttf);
 }
 
@@ -19,10 +19,19 @@
 
 body {
     margin: 0;
+    font-family: 'PublicSans', Helvetica, Arial, sans-serif;
+}
+h1 h2 {
+    font-family: 'PlayfairDisplay', 'Droid Serif', serif;
+}
+h3 {
+    font-family: 'AmaticSC', 'Helvetica, Arial, sans-serif;
+}
+h4 h5 {
+    font-family: 'PublicSans', 'Helvetica, Arial, sans-serif;
 }
 
 #iu45 {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 200;
     padding: 100px 0;
     color: #eee;
@@ -49,7 +58,6 @@ body {
     font-size: 3rem;
     margin: 0 0 10px 0;
     letter-spacing: 5px;
-    font-family: 'Public Sans', Arial, Helvetica, sans-serif;
     color: #190868;
     text-shadow: 2px 1px 10px #ffffff;
     text-transform: none;
@@ -100,7 +108,6 @@ body {
     color: #ffffff;
     border: 4px solid #540425;
     font-weight: 700;
-    font-family: 'Public Sans', Arial, Helvetica, sans-serif;
     background-color: #540425;
     margin: 0 75px 0 75px;
 }
@@ -114,7 +121,6 @@ body {
 }
 
 .header3 {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 200;
     min-height: 50px;
     color: rgb(238, 238, 238);
@@ -158,7 +164,6 @@ body {
     transition-timing-function: initial;
     transition-delay: initial;
     transition-property: opacity;
-    font-family: 'Public Sans', Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 
@@ -211,7 +216,6 @@ body {
 }
 
 #ihz1pd {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 200;
     padding: 50px 0;
     color: #444;
@@ -230,7 +234,6 @@ body {
     margin-bottom: 50px;
     margin: 0 55px 50px 55px;
     font-weight: 400;
-    font-family: 'Public Sans', Arial, Helvetica, sans-serif;
     color: #131313;
 }
 
@@ -284,12 +287,10 @@ body {
 #il1ph {
     color: #fff;
     border: 4px solid #ffffff;
-    font-family: 'Public Sans', Arial, Helvetica, sans-serif;
     background-color: #000000;
 }
 
 .feature3-section {
-    font-family: 'Public Sans', Helvetica, Arial, sans-serif;
     font-weight: 200;
     padding-top: 50px;
     padding-right: 0px;
@@ -313,7 +314,6 @@ body {
 .feature3-desc {
     line-height: 1.5rem;
     color: #131313;
-    font-family: 'Public Sans', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 1.2em;
 }
@@ -344,7 +344,6 @@ body {
     margin: 19.92px 0 25px 0;
     text-align: center;
     border: 0 solid;
-    font-family: 'Public Sans', Arial, Helvetica, sans-serif;
     color: #190148;
     text-transform: none;
     font-size: 2em;
@@ -355,7 +354,6 @@ body {
     font-weight: 400;
     margin: 19.92px 0 25px 0;
     text-align: center;
-    font-family: 'Public Sans', Arial, Helvetica, sans-serif;
     font-size: 2em;
     text-transform: none;
 }
@@ -369,7 +367,6 @@ body {
 }
 
 .feature4-section {
-    font-family: 'Public Sans', Helvetica, Arial, sans-serif;
     font-weight: 200;
     padding-top: 50px;
     padding-right: 0px;
@@ -411,7 +408,6 @@ body {
     text-transform: none;
     color: #540425;
     font-weight: 600;
-    font-family: 'Public Sans', Arial, Helvetica, sans-serif;
 }
 
 #i8afnn {
@@ -420,7 +416,6 @@ body {
     text-align: center;
     text-transform: none;
     font-weight: 600;
-    font-family: 'Public Sans', Arial, Helvetica, sans-serif;
 }
 
 #i025hk {
@@ -429,12 +424,10 @@ body {
     text-align: center;
     text-transform: none;
     font-weight: 600;
-    font-family: 'Public Sans', Arial, Helvetica, sans-serif;
 }
 
 #i673md {
     color: white;
-    font-family: Helvetica, serif;
     background-color: #131313;
 }
 
@@ -444,7 +437,6 @@ body {
 
 #irim9s {
     text-align: center;
-    font-family: 'Playfair Display', 'Droid Serif', serif;
     font-weight: 600;
     font-size: 3em;
 }
@@ -491,7 +483,6 @@ body {
     text-align: center;
     color: #190148;
     font-size: 4em;
-    font-family: 'Playfair Display', 'Droid Serif', serif;
 }
 
 #ixx4a {
@@ -501,13 +492,11 @@ body {
 #infoh {
     color: #ffffff;
     text-align: center;
-    font-family: 'Playfair Display', 'Droid Serif', serif;
     font-size: 3em;
 }
 
 #igjfg {
     color: #fff;
-    font-family: 'Public Sans', Arial, Helvetica, sans-serif;
     margin: 0 auto 0 50px;
     font-size: 0.8em;
     text-align: left;
@@ -538,20 +527,17 @@ body {
 #io0li {
     color: #131313;
     text-align: center;
-    font-family: 'Playfair Display', 'Droid Serif', serif;
     font-size: 4em;
 }
 
 #idpcnp {
     text-align: center;
-    font-family: 'Playfair Display', 'Droid Serif', serif;
     font-size: 3em;
     color: #190148;
 }
 
 #in7uk9 {
     font-weight: 400;
-    font-family: 'Public Sans', Arial, Helvetica, sans-serif;
     margin: 0 65px 0 65px;
     text-align: center;
     color: #131313;
